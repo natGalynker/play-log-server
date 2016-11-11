@@ -333,12 +333,12 @@ ID=1 TOKEN=33ad6372f795694b333ec5f329ebeaaa scripts/exercises-show.sh
 ```
 
 
-#### PATCH /change-password/:id
+#### PATCH /exercises/:id
 
 Request:
 
 ```sh
-curl --include --request PATCH http://localhost:3000/change-password/$ID \
+curl --include --request PATCH http://localhost:3000/exercises/$ID \
   --header "Authorization: Token token=$TOKEN" \
   --header "Content-Type: application/json" \
   --data '{
@@ -377,8 +377,8 @@ Response:
 HTTP/1.1 204 No Content
 ```
 ## Additional Resources
--   [Back End deployed Site](https://nameless-waters-20598.herokuapp.com)
--   [Front End Deployed Site](https://natGalynker.github.io/play-together-client)
--   [Front End Repo](https://github.com/natGalynker/play-together-client)
+-   [Back End deployed Site](https://whispering-refuge-30775.herokuapp.com)
+-   [Front End Deployed Site](https://natGalynker.github.io/play-log-client)
+-   [Front End Repo](https://github.com/natGalynker/play-log-client)
 
 
